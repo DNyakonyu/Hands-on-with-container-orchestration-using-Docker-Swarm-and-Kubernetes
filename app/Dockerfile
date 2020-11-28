@@ -8,6 +8,6 @@ RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
 EXPOSE 80
 
-ENV NAME <your-name>
+ENV NAME <DNyakonyu>
 
 ENTRYPOINT ["python3.7", "app.py"]
